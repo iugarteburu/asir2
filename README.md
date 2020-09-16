@@ -1,2 +1,5 @@
 # asir2
-Asir2rako egindako probako repositorioa
+Repositorio creado para Asir2
+
+Puedes editarlo directamente
+
