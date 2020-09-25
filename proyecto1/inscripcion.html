@@ -1,0 +1,42 @@
+<html>
+<head> 
+    <link rel="stylesheet" href="css/prueba.css">
+    <meta charset="UTF-8">
+    <title>Prueba</title>
+</head>
+<body>
+    <header>
+    <div id="menucentrado">
+        <ul>
+            <li><a href="inicio.html">Inicio</a></li>
+            <li><a href="presentacion.html">Quiénes somos</a></li>
+            <li class="dropdown">
+                <a href="servicios.html" class="dropbtn">Servicios</a>
+                <div class="dropdown-content">
+                    <a href="desarrollo.html">Desarrollo</a>
+                    <a href="redes.html">Redes</a>
+                    <a href="sistemas.html">Sistemas</a>
+                
+            </div></li>
+            <li><a href="#" class="activo">Inscripción</a></li>
+            
+        </ul>
+    </div>
+    </header>
+    <main>
+    <form action="respuesta.php" method="post">
+        <p>Nombre: <input type="text" name="nombre"></p>
+        <p>Apellido: <input type="text" name="apellido"></p>
+        <p>Email: <input type="email" name="email"></p>
+        <p>Intereses</p>
+        <p><input type="checkbox" name="redes"><label for="redes">Redes</label></p>
+        <p><input type="checkbox" name="sistemas"><label for="sistemas">Sistemas</label> </p>
+        <p><input type="checkbox" name="desarrollo"><label for="desarrollo">Desarrollo</label> </p>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+    </main>
+    <footer>
+        <p>Empresa molona</p>
+    </footer>
+</body>
+</html>

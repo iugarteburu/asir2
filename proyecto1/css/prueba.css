@@ -1,0 +1,126 @@
+/********************************************************************
+                   ELEMENTOS DEL MENU
+********************************************************************/
+#menucentrado {
+    float:left;
+    width:100%;
+    min-height: 3em;
+    background-image:  url('../img/greenbg.jpg');
+    border-bottom:4px solid #a1fc03;
+    position:relative;
+ }
+ #menucentrado ul {
+    clear:left;
+    float:left;
+    list-style:none;
+    margin:0;
+    margin-top: 1em;
+    padding:0;
+    position:relative;
+    left:50%;
+    text-align:center;
+ }
+ #menucentrado ul li {
+    display:block;
+    float:left;
+    list-style:none;
+    margin:0;
+    padding:0;
+    position:relative;
+    right:50%;
+ }
+ #menucentrado ul li a, .dropbtn {
+    display:block;
+    margin:0 0 0 1px;
+    padding:3px 10px;
+    background:white;
+    color:#000;
+    text-decoration:none;
+    line-height:1.3em;
+ }
+ #menucentrado ul li a:hover, .dropdown:hover .dropbtn, .dropdown-content a:hover {
+    background:#a1fc03;
+    color:#fff;
+ }
+ #menucentrado ul li a.activo,
+ #menucentrado ul li a.activo:hover {
+    color:#fff;
+    background:#2d802f;
+    font-weight:bold;
+ }
+
+ /**********************************************************
+                    MENU DESPLEGABLE
+ **********************************************************/
+  /* elemento del menu que se despliega*/
+  .dropdown {
+    border: none;
+    outline: none;
+    color: white;
+    font-family: inherit; 
+    margin: 0; 
+  }
+
+  /* Menu desplegado (oculto por defecto) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links dentro del menu desplegable */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Mostrar desplegable al pasar el raton */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+/******************************************************************
+                   ELEMENTOS GENERALES
+******************************************************************/
+img{
+      width: 100%;
+    
+}
+
+body{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+   border-top:4px solid #a1fc03;
+   width:60%;
+   margin-left: auto;
+   margin-right: auto;
+   height: 3em;
+   background-image:  url('../img/greenbg.jpg');
+   text-align: center;
+   color: white;
+   position: fixed;
+   bottom: 0; 
+}
+
+form{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type=text], input[type=email]{
+    width:100%;
+    float: right;
+    margin:3px 10px;
+}
